@@ -1,0 +1,25 @@
+{
+  "name": "FM2SustainPedal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "cpy index.html build/ && cpy favicon.ico build/ &&  uglifyjs --output build/index.min.js --compress --mangle --toplevel -- index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelpernil2/FM2SustainPedal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelpernil2/FM2SustainPedal/issues"
+  },
+  "homepage": "https://github.com/rafaelpernil2/FM2SustainPedal#readme",
+  "devDependencies": {
+    "cpy-cli": "4.1.0",
+    "uglify-js": "3.16.2"
+  }
+}
