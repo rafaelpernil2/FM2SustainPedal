@@ -25,6 +25,8 @@ A few days ago I bought a KORG FM2 and it did not have sustain pedal support, th
 
 * Sustain pedal support - Works as expected
 * Sustain latch - Useful for latching the arpeggiator
+* Efficient code - No frameworks, no dependencies. Uses bitwise operations, minification and zero DOM operation on MIDI input events
+* MIDI Input device and channel selector with "Any" mode available
 
 ## Usage
 
